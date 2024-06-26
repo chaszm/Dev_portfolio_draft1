@@ -308,38 +308,44 @@
             <h2>Contact Me</h2>
           </header>
         
-          <form method="post" action="contact.php">
-            <div class="field">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" required />
+          <form method="post" action="https://forms.un-static.com/forms/00e9596daad2c6e6ba01307b71b4febedac86fc2">
+            <div class="form-group row" style="margin-right: 180px;">
+              <label for="name" class="col-sm-4 col-form-label text-sm-right">Name</label>
+              <div class="col-sm-8">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user"></i></span>
+                  </div>
+                  <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+                </div>
+              </div>
             </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
+            <div class="form-group row" style="margin-right: 180px;" >
+              <label for="email" class="col-sm-4 col-form-label text-sm-right">E-mail address</label>
+              <div class="col-sm-8">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                  </div>
+                  <input id="email" name="email" placeholder="Your e-mail address" type="email" required="required" class="form-control">
+                </div>
+              </div>
             </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" rows="4" required></textarea>
+            <div class="form-group row" style="margin-right: 180px;">
+              <label for="message" class="col-sm-4 col-form-label text-sm-right">Message</label>
+              <div class="col-sm-8">
+                <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+              </div>
             </div>
-          </br>
-        </br>
-            <ul class="actions special">
-              <li><input type="submit" value="Send Message" class="button primary" /></li>
-            </ul>
+            <div class="form-group row" style="margin-right: 180px;">
+              <div class="offset-sm-4 col-sm-8">
+                <button name="submit" type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </div>
           </form>
-        
-          <footer class="major">
-            <ul class="actions special">
-              <li>
-                <a href="generic.html" class="button primary">Download Resume</a>
-              </li>
-            </ul>
-          </footer>
-        </section>
-      </div>
 
       
-      <footer id="footer">
+      <footer>
       
         <section>
           
